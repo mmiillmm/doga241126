@@ -11,7 +11,7 @@ sr.ReadLine();
 
 while (!sr.EndOfStream) varos.Add(new Varos(sr.ReadLine()));
 
-Console.WriteLine($"0. feladat: Ennyi entry van a fileban: {(varos.Count) + 1}");
+Console.WriteLine($"0. feladat: Ennyi entry van a fileban: {varos.Count}");
 
 Console.WriteLine("\n");
 
